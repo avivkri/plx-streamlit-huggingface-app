@@ -1,0 +1,12 @@
+version: 1.1
+kind: component
+name: plx-streamlit-huggingface-app
+tags: [streamlit, huggingface]
+run:
+  kind: service
+  ports: [8501]
+  rewritePath: true
+  container:
+    image: avivkri/polyaxon-examples:plx-streamlit-huggingface-app
+    command: [streamlit, run, app.py]
+
