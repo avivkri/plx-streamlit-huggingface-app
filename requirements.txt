@@ -1,5 +1,4 @@
 streamlit==1.25.0
-transformers==4.31.0
+transformers[tf-cpu]==4.31.0
 typing-extensions
 sentencepiece==0.1.99
-tensorflow==2.13.0
