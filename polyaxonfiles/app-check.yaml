@@ -8,4 +8,5 @@ run:
   rewritePath: true
   container:
     image: avivkri/polyaxon-examples:plx-streamlit-huggingface-app
+    imagePullPolicy: Always
     command: [streamlit, run, app-check.py]
