@@ -3,3 +3,5 @@ tensorflow==2.13.0
 transformers==4.31.0
 typing-extensions
 sentencepiece==0.1.99
+https://github.com/sld/docker-tensorflow-builder-next/releases/download/2.12/tensorflow-2.12.0-cp310-cp310-linux_x86_64.whl
+https://github.com/sld/docker-tensorflow-builder-next/releases/download/2.12/tensorflow_text-2.12.1-cp310-cp310-linux_x86_64.whl
